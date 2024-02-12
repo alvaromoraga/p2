@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    background: lightblue;
+}
+
+h1 {
+    text-align: center; /* Centro el título */
+}
+
+p {
+    text-align: center; /* Centro el párrafo */
+    font-style: italic; 
+    font-weight: bold;
+}
+
+.imagenes-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.imagenes-container a {
+    margin: 10px; /* Añado margen entre las imágenes */
+}
+
+.imagenes-container a img {
+    width: 100px; 
+    height: auto; /* Mantiengo la proporción */
+}

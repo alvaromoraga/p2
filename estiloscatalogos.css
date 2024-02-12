@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+    margin: 0; /* Añad0 margin: 0; para eliminar el margen predeterminado del body */
+}
+
+.flex-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Alineo las imágenes al principio y al final del contenedor */
+    padding: 10px; /* Añado un poco de espacio interno al contenedor */
+    height: 800px;
+}
+
+.img {
+    flex: 0 0 calc(25% - 20px); /* Ajustaoel tamaño de los elementos img para que ocupen el 25% del contenedor con espacio entre ellos */
+    margin-bottom: 20px; /* añado un margen inferior para separar las filas de imágenes */
+    text-align: center; /* Centro el texto dentro del div */
+    width: 300px;
+
+}
+
+.img img {
+    max-width: 100%; /* Establezco el ancho máximo de la imagen al 100% del div */
+    max-height: 100%; /* Establezco la altura máxima de la imagen al 100% del div */
+}
+

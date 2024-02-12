@@ -1,0 +1,114 @@
+
+/*Voy a crear el menu sin utilizar flexbox*/
+/*Excepciones */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: lightblue ;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+#container{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+
+}
+
+/*cabecera */
+
+header{
+background:lightblue;
+width: 100%;
+height: 100px;
+margin: 0px;
+text-align: center;
+line-height: 100px;
+color:black;
+border-bottom: 3px solid black;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/*menu */
+nav{
+    background: white;
+    height: 80px;
+    border-bottom: 1px solid black;
+
+
+}
+nav ul li{
+float: left;
+list-style: none;
+margin: 25px;
+line-height: 80px;
+font-weight: bold;
+}
+
+.clearfix{
+    clear:both;
+
+}
+
+
+#content{
+    float:left;
+    width: calc(75% - 80px);
+    min-height: 500px;
+    background: lightblue;
+    padding: 40px;
+
+}
+
+/*barra buscadora */
+
+#aside{
+    float: left;
+    width: calc(25% - 20);     
+    background:lightblue;
+    min-height: 500px;
+    
+}
+
+/*pie de pagina */
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+/*Contenido del menú*/
+.article{
+        color: black;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+        
+}
+.article h2{
+    text-decoration: underline;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.article p{
+    font-style: italic;
+    text-align: justify;
+    font-weight: bold;
+
+}
+
+.article img{
+    margin-left: 50px;
+    
+}

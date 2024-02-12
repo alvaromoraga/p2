@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tabla-container {
+    margin: 0 10px;
+}
+
